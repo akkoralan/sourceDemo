@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-24T10:52:04.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1717764500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to shopping online",
+        "description": "",
+        "id": "shopping-feature;user-should-be-able-to-shopping-online",
+        "after": [
+          {
+            "result": {
+              "duration": 151500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5308562300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on the login page",
+            "match": {
+              "location": "ShoppingStepDef.user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4215134000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sort the items lowest price",
+            "match": {
+              "location": "ShoppingStepDef.user_sort_the_items_lowest_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3254606400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user add 4 items to the shopping cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 9
+                }
+              ],
+              "location": "ShoppingStepDef.user_add_items_to_the_shopping_cart(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user  visit the shoping cart to see the items has been added",
+            "match": {
+              "location": "ShoppingStepDef.user_visit_the_shoping_cart_to_see_the_items_has_been_added()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 694000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user remove an item and add another item",
+            "match": {
+              "location": "ShoppingStepDef.user_remove_an_item_and_add_another_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 833200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user go to checkout and finish checkout",
+            "match": {
+              "location": "ShoppingStepDef.user_go_to_checkout_and_finish_checkout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping feature",
+    "description": "",
+    "id": "shopping-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/shopping.feature",
+    "tags": []
+  }
+]
